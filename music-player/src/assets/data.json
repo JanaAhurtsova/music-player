@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Energy",
+    "song": "music/energy.mp3",
+    "album": "https://cdn.bensound.com/image/cover/energy-X2.webp"
+  },
+  {
+    "id": 2,
+    "title": "Extreme action",
+    "song": "music/extremeaction.mp3",
+    "album": "https://cdn.bensound.com/image/cover/extremeaction-X2.webp"
+  },
+  {
+    "id": 3,
+    "title": "Happy rock",
+    "song": "music/happyrock.mp3",
+    "album": "https://cdn.bensound.com/image/cover/happyrock-X2.webp"
+  },
+  {
+    "id": 4,
+    "title": "Punky",
+    "song": "music/punky.mp3",
+    "album": "https://cdn.bensound.com/image/cover/punky-X2.webp"
+  }, {
+    "id": 5,
+    "title": "High Octane",
+    "song": "music/highoctane.mp3",
+    "album": "https://cdn.bensound.com/image/cover/highoctane-X2.webp"
+  }
+]

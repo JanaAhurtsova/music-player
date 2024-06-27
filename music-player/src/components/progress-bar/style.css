@@ -1,0 +1,18 @@
+.progress-bar {
+  display: flex;
+  width: 70%;
+  height: 4px;
+  background-color: var(--bar-color);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.progress-bar_filled {
+  height: 4px;
+  background-color: var(--bar-fill-color);
+  opacity: .8;
+  border-radius: 5px;
+  position: relative;
+  width: var(--progress-width);
+}

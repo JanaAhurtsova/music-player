@@ -1,0 +1,35 @@
+.volume-bar {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.volume-bar__input {
+  -webkit-appearance :none;
+  -moz-appearance :none;
+  appearance: none;
+  width: 50%;
+  background-color: var(--bar-color);
+  height: 2px;
+  border-radius: 3px;
+}
+
+.volume-bar__input::-webkit-slider-thumb {
+  -webkit-appearance :none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--bar-fill-color);
+  cursor: pointer;
+}
+
+.volume-bar__input::-moz-range-thumb {
+  -moz-appearance :none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--bar-fill-color);
+  cursor: pointer;
+}

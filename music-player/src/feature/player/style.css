@@ -1,0 +1,52 @@
+.player {
+  display: flex;
+  gap: 23px;
+  padding: 8px;
+  background:
+    url('../../assets/images/Logo.png') center/contain no-repeat,
+    white;
+  box-shadow: 0px 0px 8px 2px #1c274c;
+  border-radius: 8px;
+  max-width: 580px;
+  width: 50%;
+  position: relative;
+}
+
+.player__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  flex: auto;
+  padding: 15px 0 25px;
+}
+
+.player__album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  right: -30%;
+  top: -30%;
+  width: 50%;
+  z-index: 50;
+  overflow: hidden;
+  animation: rotation 5s infinite linear;
+  filter: drop-shadow(0 0 0.5rem #1c274c);
+  transition: .3s;
+}
+
+.player__cover {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
