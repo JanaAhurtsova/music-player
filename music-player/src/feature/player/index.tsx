@@ -5,6 +5,7 @@ import { ProgressBar } from '@components/progress-bar';
 import { VolumeBar } from '@components/sound-bar';
 import { hideElement } from '@utils/hide-element';
 import './style.css';
+import { formatDurationDisplay } from '@utils/formatted-duration';
 
 interface Song {
   id: number;
@@ -97,7 +98,9 @@ export const Player: FC = () => {
           onMute={callbacks.onMute}
           onChangeVolume={callbacks.onChangeVolume}
         />
-        <h3>{currentSong?.title}</h3>
+        <h3>
+          {currentSong?.title} {audio.current && `- ${formatDurationDisplay(audio.current.duration)}`}
+        </h3>
         <ProgressBar
           isPlay={isPlay}
           onChangeProgress={callbacks.onChangeProgress}
