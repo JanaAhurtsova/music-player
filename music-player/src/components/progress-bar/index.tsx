@@ -1,5 +1,5 @@
 import { FC, memo, useMemo, useRef } from 'react';
-import { hideElement } from '../../utils/hide-element';
+import { hideElement } from '@utils/hide-element';
 import './style.css';
 
 interface Props {

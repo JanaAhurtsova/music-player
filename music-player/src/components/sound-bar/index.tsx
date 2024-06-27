@@ -1,6 +1,6 @@
 import { ChangeEvent, FC, memo, useState } from 'react';
-import Mute from '../../assets/svg/volume-cross-svgrepo-com.svg?react';
-import Volume from '../../assets/svg/volume-loud-svgrepo-com.svg?react';
+import Mute from '@assets/svg/volume-cross-svgrepo-com.svg?react';
+import Volume from '@assets/svg/volume-loud-svgrepo-com.svg?react';
 import './style.css';
 
 interface Props {

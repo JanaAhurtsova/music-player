@@ -1,9 +1,9 @@
 import { FC, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import data from '../../assets/data.json';
-import { Controls } from '../../components/controls';
-import { ProgressBar } from '../../components/progress-bar';
-import { VolumeBar } from '../../components/sound-bar';
-import { hideElement } from '../../utils/hide-element';
+import data from '@assets/data.json';
+import { Controls } from '@components/controls';
+import { ProgressBar } from '@components/progress-bar';
+import { VolumeBar } from '@components/sound-bar';
+import { hideElement } from '@utils/hide-element';
 import './style.css';
 
 interface Song {
